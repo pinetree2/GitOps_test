@@ -11,7 +11,7 @@ name: song-git-action-test
 
 on:
   push:
-    branches: ['song']
+    branches: ['main']
 
 env:
   REGISTRY: ghcr.io
